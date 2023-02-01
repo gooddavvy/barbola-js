@@ -1,0 +1,17 @@
+{
+  "name": "barbola-js",
+  "version": "1.0.0",
+  "description": "The best web framework",
+  "main": "index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "David Akins",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "solid-js": "^1.6.10"
+  }
+}
