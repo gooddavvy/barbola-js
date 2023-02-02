@@ -12,10 +12,13 @@ export declare type MemoName = string;
 export declare type Memo = any;
 export declare type DataContext<T> = Context<T>;
 
-/* Custom Hooks/Functions */
+/* Custom Hooks/Functions needed*/
 export declare function createState<T>(value: T): State<T>;
 export declare function onMount(fn: () => void): () => void;
 export declare function createMemo<T>(memoName: string, memoValue: T): () => void;
 export declare function useMemo(memoName: string): () => Memo;
 export declare function getMemo(memoName: string): () => Memo[];
 export declare function createContext<T>(defaultValue?: T): Context<T | undefined>;
+
+
+
